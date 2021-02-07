@@ -230,3 +230,63 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .social i {
+    display: none;
+  }
+
+  .nav-list-item {
+    list-style: none;
+    display: block;
+    margin: 5px 0;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .blog-image {
+    width: 49%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .sidebar-contents {
+    display: block;
+  }
+  /* 
+  .sidebar-heading {
+    width: 100%;
+  } */
+  /* 
+  .instagram {
+    display: block;
+  } */
+}
