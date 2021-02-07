@@ -30,9 +30,9 @@ main {
   padding: 1px;
 }
 
-.text-box:last-child {
+/* .text-box:last-child {
   margin-right: 0;
-}
+} */
 
 .text-box {
   width: 300px;
@@ -74,4 +74,31 @@ p {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .text-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .text-box:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .text-box:last-child {
+    margin-right: 0;
+  }
 }
